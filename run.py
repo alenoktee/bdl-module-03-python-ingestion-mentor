@@ -9,6 +9,7 @@ from datetime import datetime
 def check_python_lessons():
     """Check Python lesson files."""
     import os
+    # Look for lesson files in the mentor repository (current directory)
     homework_dir = Path(os.getcwd())
     test_results = []
     
