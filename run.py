@@ -10,7 +10,7 @@ def check_python_lessons():
     """Check Python lesson files."""
     import os
     # Look for lesson files in the mentor repository (current directory)
-    homework_dir = Path(os.getcwd())
+    homework_dir = Path(os.path.join(os.getcwd(), 'homework'))
     test_results = []
     
     # Find student solutions
